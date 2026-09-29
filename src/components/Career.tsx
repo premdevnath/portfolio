@@ -21,41 +21,31 @@ const Career = () => {
               <h3>2024</h3>
             </div>
             <p>
-              Developed 3+ native Android applications using Kotlin, Jetpack
-              Compose and MVVM architecture. Integrated Firebase Authentication,
-              Realtime Database and Firestore. Implemented responsive Android
-              interfaces and real-time application functionality.
+              Completed intensive project-based training in native Android development. Developed 3+ native Android applications using Kotlin, Jetpack Compose and MVVM, including a real-estate app with real-time chat and live property listings. Integrated Firebase Auth, Realtime Database and Firestore.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Android Developer</h4>
+                <h4>IT Executive – AI Automation</h4>
                 <h5>QVK Deep Food Pvt. Ltd., Bhilwara</h5>
               </div>
               <h3>2025</h3>
             </div>
             <p>
-              Developed a food e-commerce application and contributed to Android
-              development projects. Worked with development teams on application
-              features, testing and implementation. Gained practical experience
-              in business software and application development.
+              Built an n8n workflow that creates Purchase Orders in Odoo ERP from Telegram and Excel inputs, automating vendor creation and product matching. Reduced manual purchase entry and human error for FMCG/inventory operations. Administered Odoo ERP and Shopify, integrating them with automation workflows.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>IT & Application Development</h4>
+                <h4>AI Automation & Application Dev</h4>
                 <h5>Ostwal Group of Industries, Bhilwara</h5>
               </div>
-              <h3>NOW</h3>
+              <h3>2026</h3>
             </div>
             <p>
-              Developed a company website using AI-assisted development tools and
-              modern web technologies. Automated SAP business processes and
-              repetitive tasks using Python, Playwright and n8n. Contributed to a
-              farmer-focused fertilizer application project and supported
-              enterprise software operations.
+              Built a Playwright automation pipeline that creates supplier and customer Business Partners in SAP S/4HANA directly from Excel data. Automated recurring business tasks using Playwright & n8n. Built the company website using AI-assisted development and contributed to a farmer-focused fertilizer application.
             </p>
           </div>
         </div>

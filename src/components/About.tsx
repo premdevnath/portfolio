@@ -6,17 +6,10 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          I'm an Android Developer and IT professional specializing in Kotlin,
-          Jetpack Compose, AI-powered applications and business process
-          automation. I have hands-on experience developing mobile and web
-          applications, automating SAP workflows with Python and Playwright, and
-          integrating enterprise systems using n8n and REST APIs.
+          I'm an AI Automation Engineer and Android Developer who builds workflow and process automation on top of business systems like SAP S/4HANA and Odoo ERP. I have hands-on experience with n8n, Playwright, Python, REST APIs, and LLM/Gemini API integration, having built production automations across multiple companies.
         </p>
         <p className="para">
-          Currently working at Ostwal Group of Industries and pursuing an MCA in
-          Artificial Intelligence &amp; Machine Learning at Rajasthan Technical
-          University, I enjoy building practical digital solutions that connect
-          modern software development, AI and enterprise automation.
+          Alongside my automation work, I am experienced in native Android development (Kotlin, Jetpack Compose) and full-stack web applications. I am currently pursuing an MCA in Artificial Intelligence &amp; Machine Learning, focusing on creating intelligent digital solutions that bridge modern software development and enterprise automation.
         </p>
       </div>
     </div>

@@ -8,39 +8,32 @@ gsap.registerPlugin(useGSAP);
 
 const projects = [
   {
+    name: "n8n Purchase Order Automation",
+    category: "Workflow Automation",
+    tools: "n8n, Odoo, Telegram API, Excel",
+    image: "/images/n8n.png.jfif",
+    link: "https://github.com/premdevnath/n8n-odoo-automation",
+  },
+  {
+    name: "SAP BP Automation",
+    category: "Enterprise Automation",
+    tools: "Playwright, Python, SAP S/4HANA",
+    image: "/images/Sep.png.jfif",
+    link: "https://drive.google.com/file/d/1qa7wFRFgVh_vtgE2d7ap-0dD9XBLYP0P/view?usp=sharing",
+  },
+  {
     name: "QuickDrop",
-    category: "Android Application",
+    category: "Hyperlocal Delivery App",
     tools: "Kotlin, Jetpack Compose, MVVM, Retrofit, Room, Gemini AI",
     image: "/images/Quic.PNG.jfif",
     link: "https://github.com/premdevnath/qd",
   },
   {
     name: "Real One",
-    category: "Android Application",
+    category: "Real Estate App",
     tools: "Kotlin, Jetpack Compose, Firebase, REST API",
     image: "/images/Real.PNG.jfif",
     link: "https://github.com/premdevnath/Realone",
-  },
-  {
-    name: "Heaven Design & Décor",
-    category: "Web Application",
-    tools: "HTML, CSS, JavaScript, Supabase, Render",
-    image: "/images/Heave.PNG.jfif",
-    link: "https://heaven-design-2.onrender.com",
-  },
-  {
-    name: "SAP BP Automation",
-    category: "Enterprise Automation / RPA",
-    tools: "Python, Playwright, SAP S/4HANA, OpenPyXL",
-    image: "/images/Sep.png.jfif",
-    link: "https://drive.google.com/file/d/1qa7wFRFgVh_vtgE2d7ap-0dD9XBLYP0P/view?usp=sharing",
-  },
-  {
-    name: "n8n–Odoo Automation",
-    category: "Workflow Automation",
-    tools: "n8n, Odoo ERP, Telegram API, REST APIs",
-    image: "/images/n8n.png.jfif",
-    link: "https://github.com/premdevnath/n8n-odoo-automation",
   },
 ];
 
