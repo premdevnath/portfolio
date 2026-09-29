@@ -12,7 +12,11 @@ import setSplitText from "./utils/splitText";
 
 const TechStack = lazy(() => import("./TechStack"));
 
-const MainContainer = ({ children }: PropsWithChildren) => {
+type MainContainerProps = PropsWithChildren<{
+  onResumeOpen?: () => void;
+}>;
+
+const MainContainer = ({ children, onResumeOpen }: MainContainerProps) => {
   const [isDesktopView, setIsDesktopView] = useState<boolean>(
     window.innerWidth > 1024
   );
@@ -33,7 +37,7 @@ const MainContainer = ({ children }: PropsWithChildren) => {
     <div className="container-main">
       <Cursor />
       <Navbar />
-      <SocialIcons />
+      <SocialIcons onResumeOpen={onResumeOpen} />
       {isDesktopView && children}
       <div id="smooth-wrapper">
         <div id="smooth-content">
