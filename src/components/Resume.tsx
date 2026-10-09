@@ -31,7 +31,7 @@ const Resume = ({ isOpen, onClose }: ResumeProps) => {
               GitHub
             </a>
             <span>|</span>
-            <a href="https://in.linkedin.com/in/prem-devnath-6b8a61298" target="_blank">
+            <a href="https://www.linkedin.com/in/prem-debnath-6b8a61298/" target="_blank">
               LinkedIn
             </a>
           </div>
