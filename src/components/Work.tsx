@@ -11,14 +11,14 @@ const projects = [
     name: "MAYA — Live AI Virtual Try-On",
     category: "Android & Generative AI",
     tools: "Kotlin, Jetpack Compose, CameraX, ML Kit, ZeroGPU, Gradio, Room",
-    image: "/images/maya.jpg",
+    image: "/images/maya-ai.jpg",
     link: "https://github.com/premdevnath/mayaai",
   },
   {
     name: "AI Lead Management Automation",
     category: "AI Workflow & Lead Qualification",
     tools: "n8n, Gemini 2.5 Flash, JavaScript, Webhooks, Google Sheets, Gmail API",
-    image: "/images/n8n.png.jfif",
+    image: "/images/lead-ai.jpg",
     link: "https://github.com/premdevnath",
   },
   {
