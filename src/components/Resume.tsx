@@ -34,6 +34,10 @@ const Resume = ({ isOpen, onClose }: ResumeProps) => {
             <a href="https://www.linkedin.com/in/prem-debnath-6b8a61298/" target="_blank">
               LinkedIn
             </a>
+            <span>|</span>
+            <a href="/PremDevnath_Resume.pdf" target="_blank" download="PremDevnath_Resume.pdf" style={{ color: "#4f9eff", fontWeight: 600 }}>
+              Download PDF ↗
+            </a>
           </div>
         </div>
 
@@ -57,8 +61,8 @@ const Resume = ({ isOpen, onClose }: ResumeProps) => {
             <div className="resume-skill-row">
               <span className="resume-skill-label">Automation & AI</span>
               <span className="resume-skill-value">
-                n8n, Playwright, Python, AI Agents, Gemini API, Webhooks,
-                AI-assisted Development
+                Gemini 2.5 Flash, Hugging Face (ZeroGPU/Gradio), n8n Workflows,
+                Playwright, Python, AI Agents, Webhooks
               </span>
             </div>
             <div className="resume-skill-row">
@@ -76,14 +80,14 @@ const Resume = ({ isOpen, onClose }: ResumeProps) => {
             <div className="resume-skill-row">
               <span className="resume-skill-label">Languages</span>
               <span className="resume-skill-value">
-                Python, JavaScript, Kotlin, Java, HTML, CSS, XML
+                Kotlin, Java, Python, JavaScript, HTML, CSS, XML
               </span>
             </div>
             <div className="resume-skill-row">
               <span className="resume-skill-label">Android</span>
               <span className="resume-skill-value">
-                Jetpack Compose, MVVM, Dagger Hilt, Room, Android Studio, Git /
-                GitHub
+                Jetpack Compose, CameraX, ML Kit, MVVM, Room, DataStore, Dagger
+                Hilt, Android Studio, Git / GitHub
               </span>
             </div>
           </div>
@@ -185,14 +189,37 @@ const Resume = ({ isOpen, onClose }: ResumeProps) => {
 
           <div className="resume-project-item">
             <h3 className="resume-project-name">
-              n8n Purchase Order Automation
+              MAYA — Live AI Virtual Try-On Android App
+              <a
+                href="https://github.com/premdevnath/mayaai"
+                target="_blank"
+              >
+                GitHub ↗
+              </a>
             </h3>
             <p className="resume-project-tech">
-              n8n | Odoo | Telegram API | Excel
+              Kotlin | Jetpack Compose | CameraX | ML Kit | Room | DataStore | ZeroGPU
             </p>
             <p className="resume-project-desc">
-              End-to-end workflow from Telegram file to Odoo Purchase Order with
-              vendor creation, product matching and error logging.
+              Built a native Android app featuring smart body-framing camera guide, multi-source garment import (Photo Picker, camera, Jsoup extraction), and MediaStore video saving. Architected a replaceable VirtualTryOnProvider layer connecting zero-cost Hugging Face ZeroGPU / Gradio VTON endpoints with an on-device pose-tracked fallback and strict privacy safeguards.
+            </p>
+          </div>
+
+          <div className="resume-project-item">
+            <h3 className="resume-project-name">
+              AI Lead Management Automation System
+              <a
+                href="https://github.com/premdevnath"
+                target="_blank"
+              >
+                GitHub ↗
+              </a>
+            </h3>
+            <p className="resume-project-tech">
+              n8n | Gemini 2.5 Flash | JavaScript | Webhooks | Google Sheets | Gmail API
+            </p>
+            <p className="resume-project-desc">
+              Built an n8n webhook workflow with upfront JS validation, Google Sheets deduplication, and a hybrid rule-based + Gemini 2.5 Flash pipeline to classify leads as Hot, Warm, or Cold. Reduced unnecessary AI API calls and token usage by filtering invalid leads early, automating Gmail follow-ups and dual-tab logging.
             </p>
           </div>
 
@@ -204,48 +231,7 @@ const Resume = ({ isOpen, onClose }: ResumeProps) => {
               Playwright | Python | SAP S/4HANA
             </p>
             <p className="resume-project-desc">
-              Automated supplier and customer creation pipeline for SAP S/4HANA.
-            </p>
-          </div>
-
-          <div className="resume-project-item">
-            <h3 className="resume-project-name">
-              QuickDrop — Hyperlocal Delivery App
-              <a
-                href="https://github.com/premdevnath/qd"
-                target="_blank"
-              >
-                GitHub ↗
-              </a>
-            </h3>
-            <p className="resume-project-tech">
-              Android | Kotlin | Jetpack Compose | MVVM | Retrofit | Gemini AI
-            </p>
-            <p className="resume-project-desc">
-              Built a dual-role (Customer & Shop Owner) delivery app using MVVM
-              with Kotlin Coroutines and StateFlow; integrated Gemini AI for an
-              in-app chatbot/search, and Retrofit + Room for REST data sync with
-              offline persistence.
-            </p>
-          </div>
-
-          <div className="resume-project-item">
-            <h3 className="resume-project-name">
-              Real One — Real Estate App
-              <a
-                href="https://github.com/premdevnath/Realone"
-                target="_blank"
-              >
-                GitHub ↗
-              </a>
-            </h3>
-            <p className="resume-project-tech">
-              Android | Kotlin | Jetpack Compose | REST API | Firebase
-            </p>
-            <p className="resume-project-desc">
-              Implemented real-time in-app chat using Firebase, increasing user
-              engagement for property seekers. Enabled dynamic listing of 500+
-              properties with live data sync via REST API integration.
+              Automated supplier and customer creation pipeline for SAP S/4HANA directly from Excel, replacing manual entry.
             </p>
           </div>
         </div>
